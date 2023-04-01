@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.calcBox {
+    border: 5px solid black;
+    padding: 20px;
+    display: flexbox;
+    width: 30%;
+    text-align:center;
+    margin: 0 auto;
+    
+}
+h3 {
+    text-align: left;
+}
+h2 {
+    text-align: center;
+    color:black;
+}
+.label{
+    text-align: center;
+}
+.calcBox input {
+    margin-bottom: 10px;
+}
+label {
+    margin-bottom: 3px;
+}
+#bTn {
+    color: black;
+    background-color: blue;
+    border: none;
+    padding: 7px 20px;
+    margin-top: 5px;
+}
+#bTn:hover {
+    background-color: rgb(53, 125, 241);
+    color: black;
+}
